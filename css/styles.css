@@ -1,0 +1,180 @@
+body {
+    font-family: "Montserrat-Black";
+    text-align: center;
+}
+
+#title {
+    background-color: #ff4c68;
+    padding: 4% 15%;
+
+}
+h1,h2,h3,h4{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.big-heading {
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+
+
+
+/* Navbar */
+
+.navbar{
+    margin-bottom: 5rem;
+} 
+#logo {
+    font-size: 2.5rem;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-size: 1.2rem;
+}
+
+
+
+.download-button{
+    margin: 3% 4% 4% 0;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+
+/* Features */
+
+#features{
+    padding: 5% 15%;
+    
+    
+    
+}
+.feature-box{
+    padding: 5%;
+    text-align: center;
+}
+
+.feature-title{
+    
+    font-weight: 700; 
+    font-size:1.5rem;
+}
+
+p{
+    color:#8F8F8F;
+    margin: 10%;
+}
+
+.icon{
+    margin-bottom: 5%;
+    color: #ff7f4c;
+}
+
+
+/* .testimonial */
+
+#testimonials{
+    background-color: #EF8172;
+    color: white;
+    padding:8% 10% 5% 10%;
+    text-align: center;
+}
+
+.testimonial-text{
+    
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 4rem;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 50%;
+    
+
+}
+
+#press{
+    background-color: #EF8172;
+    padding:5%; 
+    
+}
+
+.images{
+    width:15%;
+    margin:20px 0px  0 100px;
+    text-align: center;
+}
+
+
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 3%;
+}
+
+.pricing-text{
+    
+    font-size: 3rem;
+    font-weight: 800;    
+}
+
+.pricing-p{
+    font-family: "Montserrat",sans-serif;
+    font-size: 1rem;    
+}
+
+
+/* cta-section */
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 100px;
+}
+
+.cta-text{
+    color: #fff;
+    
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+
+/* footer-section */
+#footer{
+    padding: 100px;
+    text-align: center;
+}
+.social-icon{
+    margin: 2%;
+}
+
+
+@media(max-width:1000px)
+{
+   #title{
+    text-align: center;
+   }
+   .title-img{
+    transform: rotate(0);
+   }
+   .images{
+    margin:20px 0  0 70px;
+    text-align: center;
+   }
+}
